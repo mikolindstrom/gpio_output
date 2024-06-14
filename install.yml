@@ -1,0 +1,11 @@
+- name: gpio
+  hosts: localhost
+  gather_facts: no
+  connection: local
+  become: true
+  
+  tasks:
+    - name: "Install pip dependencies"
+      pip:
+        name: RPi.GPIO
+        version: 0.7.0  
