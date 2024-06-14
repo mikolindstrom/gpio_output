@@ -6,7 +6,7 @@ Switch a gpios between high and low and get temperaturs or other data from the 1
 
 ## Installation
 ```bash
-kalliope install --git-url https://github.com/corus87/gpio-neuron
+kalliope install --git-url https://github.com/mikolindstrom/gpio_output.git
 ```
 
 ## Options
